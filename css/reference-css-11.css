@@ -1,0 +1,40 @@
+div{
+	width: 200px;
+	height: 200px;
+}
+.transition{
+	background: cyan;
+	transition: all 1s;
+
+}
+.transition:hover{
+	background: darkblue;
+	transform: rotate(360deg);
+}
+.animation{
+	background: chartreuse;
+	animation: anim 4s 1 ;
+	animation-fill-mode: forwards;
+}
+@keyframes anim {
+	0%{
+		/* transform: rotate(90deg); */
+		background: chocolate;
+	}
+	25%{
+		transform: rotate(90deg);
+		background: crimson;
+	}
+	50%{
+		transform: rotate(180deg);
+		background: darkmagenta;
+	}
+	75%{
+		transform: rotate(270deg);
+		background: lawngreen;
+	}
+	100%{
+		transform: rotate(360deg);
+		background: teal;
+	}
+}

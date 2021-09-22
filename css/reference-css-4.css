@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.banner,.header,.colorzilla{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+}
+.banner{
+	background: url(res/water.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.header{
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(res/water.jpg) center/cover no-repeat fixed;
+}
+.colorzilla{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3232+0,2989d8+69&1+0,0.5+100 */
+background: -moz-linear-gradient(left,  rgba(255,50,50,1) 0%, rgba(41,137,216,0.66) 69%, rgba(41,137,216,0.5) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,50,50,1) 0%,rgba(41,137,216,0.66) 69%,rgba(41,137,216,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,50,50,1) 0%,rgba(41,137,216,0.66) 69%,rgba(41,137,216,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#802989d8',GradientType=1 ); /* IE6-9 */
+
+}
+.banner-img{
+	border: 5px solid red;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.imgb{
+	float: right;
+	height: 150px;
+	margin-left: 50px;
+}
+.imgb2{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 10px;}
+/* paragraph is block level element */
+#para{
+	/* clear: left/right; */
+	/* clear: both; */
+}
+.one,.two,.three{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#one{
+	background: red;
+}
+#two{
+	background: indigo;
+}
+#three{
+	background: yellow;
+}
+.col{
+	float: left;
+	height: 200px;
+	/* 3 columns so 100/3=33.33 */
+	width: 33.33%;
+}
+#heading{
+	clear: both;
+}
+#post{
+	border: 3px solid red;
+	background: cyan;
+	margin-top: 40px;
+}
+.p-one{
+	background: firebrick;
+	position: relative;
+	/* top: 20px; */
+	/* left: 30px; */
+	right: 50px;
+	/* bottom:40px */
+}
+.p-two{
+	background: floralwhite;
+	position: relative;
+}
+/* absolute obeys the parent if it is relative otherwise obeys body */
+.special{
+	background: greenyellow;
+	font-size: 20px;
+	position: absolute;
+	top:50%;
+	right: 50%;
+}
+button{
+	background: red;
+	font-size: 40px;
+	color: black;
+	position: fixed;
+	bottom:0;
+	right:0;
+}
